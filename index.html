@@ -13,16 +13,16 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<style>
 		:root {
 			--accent: #6EED8F;
 			--background: #FFFFFF;
 		}
 		body {
-			font-family: "Coral Pixels", sans-serif;
+			font-family: "Saira Semi Condensed", sans-serif;
 			margin: 0;
-			font-weight: 400;
+			font-weight: 500;
 			padding: 0;
 			font-style: normal;
 			background-color: var(--background);
@@ -31,6 +31,7 @@
 		header {
 			background-color: var(--background);
 			color: var(--accent);
+			font-weight: 700;
 			padding: 20px 0;
 			text-align: center;
 			margin-top: 20px;
@@ -40,16 +41,145 @@
 			font-size: 2.5rem;
 		}
 		header p {
-			color: white;
+			color: black;
 			font-size: 1.2rem;
 			margin: 10px 0 0;
 		}
+        button {
+            background: url(https://htd4myn4pg.ufs.sh/f/zm6A7YwkHDCpxtBGUTRII2MsEuOVUn4STmqiLZwYgczf1yda) no-repeat;
+            border: transparent;
+            color: transparent;
+            cursor: pointer;
+            background-position: center;
+            padding: 13px 66px;
+            margin: auto;
+            box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            display: block;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.7);
+        }
+        .modal-content {
+            background-color: #transparent;
+            margin: 15% auto;
+            padding: 20px;
+            width: 40%;
+            display: grid;
+			grid-template-columns: 100px 50px;
+			grid-template-rows: 80px 50px;
+			column-gap: 10px;
+			row-gap: 50px;
+			justify-items: center;
+			align-items: center;
+			justify-content: space-evenly;
+        }
+        .modal-content p {
+            text-align: center;
+            color: white;
+            font-weight: 500;
+        }
+        .close {
+            display: none!important;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .curseforge {
+			cursor: pointer;
+			width: 150%;
+			margin: 0 100px
+			grid-column: 1/3;
+			grid-row: 2;
+			align-items: center;
+			filter: drop-shadow( 6px 6px 6px rgba(0, 0, 0, .2));
+			padding: 20px;
+        }
+        .modrinth {
+			cursor: pointer;
+			margin: 0 100px
+			grid-column: 1/3;
+			grid-row: 2;
+			align-items: center;
+			width: 180%;
+			filter: drop-shadow( 5px 5px 6px rgba(0, 0, 0, .15));
+			padding: 20px;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .version{
+			color: black;
+			text-align: center;
+			font-size: 1.2rem;
+			margin: auto	;
+        }
+        .platform-text {
+			font-weight: 500;
+			line-height: 1rem;
+			font-size: 2rem;
+			display: block;
+			grid-column: 1 / 3;
+			grid-row: 1;
+			text-align: center;
+			z-index: 2;
+        }
 	</style>
 </head>
+
 	<body>
+
 		<header>
-			<h1>Gorp's World</h1>
-			<p>The free encyclopedia.</p>
+			<img src="assets/logos/gorpsworld.svg" alt="Gorp's World" width="20%"/>
 		</header>
-	</body>
+		<p class="version">1.20.1</p>
+        <button id="myBtn">Open Modal</button>
+
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+
+                <span class="close">&times;</span>
+                <p class="platform-text">Select a platform:</p>
+					<a class="curseforge" href="https://www.curseforge.com/minecraft/mc-mods/gorps-world"><img class="curseforge" src="assets/logos/curseforge.svg" alt="CurseForge" width="20%"/></a>
+					<a class="modrinth" href="https://modrinth.com/mod/gorps-world"><img class="modrinth" src="assets/logos/modrinth.svg" alt="Modrinth" width="20%"/></a>
+
+
+            </div>
+
+        </div>
+
+    </body>
+
 </html>
+<script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
