@@ -22,7 +22,7 @@ features:
   - title: Exit Website
     icon:
       src: ./exit.svg
-    link: https://whitecastle.com/
+    link: https://gorpsworld.linkh.at/fastfood
 ---
 
 ::: warning ATTENTION
