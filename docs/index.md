@@ -27,7 +27,7 @@ features:
     link: https://whitecastle.com/
 ---
 
-::: tip <img src="./lastascensionad.png" alt="Last Ascension modpack logo" style="display: fixed; top: -20px; padding-bottom: 15px; object-fit: cover ;width: 100%; height: 125px;"></img>
+::: tip <img src="./public/lastascensionad.png" alt="Last Ascension modpack logo" style="display: fixed; top: -20px; padding-bottom: 15px; object-fit: cover ;width: 100%; height: 125px;"></img>
 <p class="custom-block-title" style="margin: 0; position: relative; top: -120px; text-shadow: 2px 2px 0px #0000006b; left: 10px; height:0;" title="Disclaimer: I'm not actually getting paid for this. I just thought it would be funny, and it is.">ADVERTISEMENT ⓘ</p>
 
 Last Ascension is a fresh take on an RPG-style modpack for those who love combat, loot, exploration, and a little bit of grinding!

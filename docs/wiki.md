@@ -21,7 +21,7 @@ Link to pure.html
 
 **Gorp Seed**
 
-![An image](./assets/gorp.svg)
+![An image](./gorp.svg)
 
 ## Custom Containers
 
