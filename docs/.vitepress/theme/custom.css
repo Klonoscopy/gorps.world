@@ -1,0 +1,104 @@
+:root {
+  --curseforge: #eb622b;
+  --modrinth: #4dd66f;
+  --gorp-brand: #ade344;
+  --secondary-brand: #00a2ff;
+  --vp-c-brand-1: var(--gorp-brand);
+  --vp-c-brand-2: var(--gorp-brand);
+  --vp-button-brand-bg: #7cc539;
+  --vp-home-hero-name-color: var(--vp-c-text-1);
+  --vp-home-hero-image-background-image: linear-gradient(180deg, #76c94555 50%, #bbff1155 50%);
+  --vp-home-hero-image-filter: blur(44px);
+  --vp-c-text-1: #fff;
+  --vp-sidebar-width: 300px;
+  --vp-nav-height: 52px;
+  /* light is treated as "default" */
+  scrollbar-color: #76c945 #00000000;
+}
+.VPContent.is-home[data-v-98ddab3d] {
+  height: 100vh;
+}
+.heading {
+  align-items: flex-end;
+}
+.VPButton.brand {
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 30%);
+}
+.tagline {
+  display: flex;
+  justify-content: flex-end;
+  text-align: end;
+}
+.VPButton.medium, .custom-block {
+  border-radius: 0px!important;
+}
+.custom-block.tip a {
+  color: var(--gorp-brand);
+}
+.actions {
+  justify-content: flex-end!important;
+}
+.main {
+  max-width: 495px!important;
+}
+.curseforge {
+  border-radius: 50px;
+  background: var(--curseforge);
+  box-shadow:  20px 20px 60px #2b2e36,
+  -20px -20px 60px #3a3e48;
+}
+.modrinth {
+  border-radius: 50px;
+  background: var(--modrinth);
+  box-shadow:  20px 20px 60px #2b2e36,
+  -20px -20px 60px #3a3e48;
+}
+.VPImage.logo {
+  shape-rendering: crispEdges;
+  min-width:32px;
+  min-height:32px;
+}
+.item.grid-3 .box[data-v-549c013f]> .VPImage{
+  transition: filter 0.25s;
+}
+.item.grid-3 .box[data-v-549c013f]:hover > .VPImage {
+  filter: saturate(0) brightness(2.5);
+}
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+/* Target the third feature item in the grid */
+.item.grid-3:nth-child(1) .VPFeature.link:hover{
+  border-color: #eb622b;
+  background-color: #eb622b55;
+  z-index: 10;
+}
+.item.grid-3:nth-child(2) .VPFeature.link:hover{
+  border-color: #4dd66f;
+  background-color: #4dd66f55;
+  z-index: 10;
+}
+.item.grid-3:nth-child(3) .VPFeature.link:hover{
+  border-color: #ff4b62;
+  background-color: #ff4b6255;
+  z-index: 10;
+}
+.item.grid-3 .VPFeature.link {
+  border-radius: 0px;
+}
+/*.item.grid-3:nth-child(1) article {
+  border-radius: 12px;;
+  transition: background-color 0.25s ease-in;
+}
+.item.grid-3:nth-child(1) article:hover{
+  transition: background-color 0.25s ease-out;
+  background-color: var(--curseforge);
+}*/

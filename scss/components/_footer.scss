@@ -1,0 +1,224 @@
+.mojang-studios-footer {
+  background: $black;
+  color: $secondary;
+  padding: 27px 0 25px;
+
+  @include media-breakpoint-up(sm) {
+    padding: 2.2rem 0 2rem;
+  }
+
+  .nav {
+    a {
+      @include link($cloud, $cloud, $cloud);
+
+      &:hover {
+        background-color: transparent;
+        text-shadow: none;
+      }
+    }
+  }
+
+  .nav-pills {
+    @include media-breakpoint-down(xs) {
+      margin-bottom: 6px;
+
+      li {
+        margin: 2px 0;
+      }
+    }
+  }
+
+  .with-divider {
+    padding-right: 0;
+    border-right: none;
+
+    li {
+      border-right: 1px solid $cloud;
+      padding: 0 0.5em;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  .icon-xbox-game-studios {
+    width: 90px;
+    height: 50px;
+  }
+
+  .icon-esrb {
+    height: 55px;
+    width: 120px;
+  }
+
+  .icon-cero-a {
+    height: 90px;
+    width: 55px;
+  }
+
+  .icon-mojang-studios {
+    width: 60px;
+    height: 50px;
+  }
+
+  .rating-container {
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+.mojang-studios-tall-footer {
+  .icon-xbox-game-studios {
+    max-width: 140px;
+    height: 110px;
+  }
+
+  .icon-esrb {
+    max-height: 90px;
+    max-width: 170px;
+  }
+
+  .icon-mojang-studios {
+    height: 110px;
+    max-width: 140px;
+  }
+
+  @include media-breakpoint-up(md) {
+    .footer-container {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      grid-template-rows: repeat(2, auto);
+      grid-column-gap: 2em;
+    }
+
+    .footer-studio-logos {
+      grid-column: 1;
+      grid-row: 1;
+      flex-direction: column;
+    }
+
+    .footer-links {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    .footer-copyright {
+      grid-column: 2;
+      grid-row: 2;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    .footer-container {
+      grid-template-columns: 2fr 3fr;
+    }
+
+    .footer-copyright {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    .footer-studio-logos {
+      flex-direction: row;
+    }
+
+    .footer-links {
+      grid-row: 1 / span 2;
+    }
+
+    .icon-xbox-game-studios {
+      max-width: 180px;
+    }
+  }
+}
+
+.ms-footer {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: $senary;
+  padding: 1.3rem 0;
+  -webkit-font-smoothing: antialiased;
+
+  @include media-breakpoint-up(lg) {
+    padding: 2rem 0;
+  }
+
+  a {
+    color: $white;
+  }
+
+  li {
+    position: static;
+    white-space: nowrap;
+  }
+
+  .ms-footer__language-selector {
+    .ms-footer__language-selector-link {
+      display: inline-block;
+      padding: 6px 0;
+
+      @include media-breakpoint-up(sm) {
+        padding: 1px 0;
+      }
+    }
+
+    .ms-footer__language-selector-list {
+      margin: 0;
+    }
+
+    .ms-footer__language-selector-form {
+      padding: 10px 0 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  .ms-links {
+    margin: 10px 0;
+
+    @include media-breakpoint-up(lg) {
+      margin: 0;
+    }
+
+    .ms-links__link {
+      margin-bottom: 4px;
+      margin-right: 20px;
+    }
+
+    .ms-links__links--locale {
+      display: flex;
+      align-items: center;
+
+      .ms-links__links--locale-icon {
+        margin-right: 5px;
+      }
+
+      .ms-links__links--locale-text {
+        position: relative;
+      }
+    }
+  }
+
+  .icon-microsoft {
+    width: 105px;
+    height: 25px;
+  }
+}
+
+#language-selector {
+  display: none;
+  position: relative;
+
+  &::after {
+    height: 20px;
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-image: linear-gradient(transparent, #2f2f2f);
+  }
+}

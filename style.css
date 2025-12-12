@@ -1,0 +1,68 @@
+:root {
+    --accent: #6EED8F;
+    --background: #FFFFFF;
+    --curseforge: #eb622b;
+    --modrinth: #4dd66f;
+}
+body {
+    font-family: "Saira Semi Condensed", sans-serif;
+    margin: 0;
+    font-weight: 500;
+    padding: 0;
+    font-style: normal;
+    background-color: var(--background);
+    color: var(--background);
+}
+header {
+    background-color: var(--background);
+    color: var(--accent);
+    font-weight: 700;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p {
+    color: black;
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+button {
+    border: transparent;
+    cursor: pointer;
+    padding: 2rem;
+    box-shadow:  20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+    border-radius: 50px;
+    display: flex;
+    height: fit-content;
+}
+.container {
+    display: flex;
+    column-gap: 6rem;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.platform-content {
+    width: 10rem;
+}
+.version{
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: auto;
+}
+.platform-text {
+    font-weight: 500;
+    line-height: 1rem;
+    font-size: 2rem;
+    display: block;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    text-align: center;
+    z-index: 2;
+}
