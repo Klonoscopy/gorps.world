@@ -30,8 +30,8 @@ This mod is a work in progress. Beta features subject to change. Update 10 is cu
 :::
 
 ::: tip <p class="custom-block-title adtext" title="Disclaimer: I'm not actually getting paid for this. I just thought it would be funny, and it is.">ADVERTISEMENT ⓘ</p>
-<img src="./public/lastascensionad.png" alt="Last Ascension modpack logo" class="lastascensionbanner"></img>
+<img src="./lastascensionad.png" alt="Last Ascension modpack logo" class="lastascensionbanner"></img>
 Last Ascension is a fresh take on an RPG-style modpack for those who love combat, loot, exploration, and a little bit of grinding!
 
-Learn more about it here: [gorps.world/LastAscension](/lastascension)
+Learn more about it here: [gorps.world/lastascension](/lastascension)
 :::
