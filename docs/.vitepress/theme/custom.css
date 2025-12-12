@@ -33,7 +33,10 @@
   color: var(--gorp-brand);
 }
 
-
+.wiki-item {
+  width: 5vh;
+  image-rendering: pixelated
+}
 .curseforge {
   border-radius: 50px;
   background: var(--curseforge);

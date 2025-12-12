@@ -4,7 +4,7 @@ title: Last Ascension
 description: Eddie, get ready for a world of PAIN.
 head:
   - - meta
-    - name: image
+    - property: og:image
       content: ./lastascensionicon.png
 ---
 <meta http-equiv="refresh" content="0; URL=https://www.curseforge.com/minecraft/modpacks/last-ascension">

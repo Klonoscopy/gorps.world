@@ -10,7 +10,7 @@ export default defineConfig({
       }
     ],
     ['meta', {
-      property: 'og:image',
+      property: 'image',
       content: './gorpsworldicon.png'
     }]
   ],
