@@ -1,9 +1,8 @@
 ---
 layout: home
-
 hero:
   name: "Gorp's World"
-  tagline: "Wake up kiddo, it's time for Gorp!<br>You're in his world now..."
+  tagline: "You're in his world now..."
   image:
     src: ./gorpsworld.svg
     alt: Gorp's World logo
@@ -11,7 +10,6 @@ hero:
     - theme: brand
       text: Visit Wiki
       link: /wiki
-
 features:
   - title: CurseForge
     icon:
@@ -27,8 +25,12 @@ features:
     link: https://whitecastle.com/
 ---
 
-::: tip <img src="./public/lastascensionad.png" alt="Last Ascension modpack logo" style="display: fixed; top: -20px; padding-bottom: 15px; object-fit: cover ;width: 100%; height: 125px;"></img>
-<p class="custom-block-title" style="margin: 0; position: relative; top: -120px; text-shadow: 2px 2px 0px #0000006b; left: 10px; height:0;" title="Disclaimer: I'm not actually getting paid for this. I just thought it would be funny, and it is.">ADVERTISEMENT ⓘ</p>
+::: warning ATTENTION
+This mod is a work in progress. Beta features subject to change over time. Update 10 is currenty in production.
+:::
+
+::: tip <p class="custom-block-title adtext" title="Disclaimer: I'm not actually getting paid for this. I just thought it would be funny, and it is.">ADVERTISEMENT ⓘ</p>
+<img src="./public/lastascensionad.png" alt="Last Ascension modpack logo" class="lastascensionbanner"></img>
 
 Last Ascension is a fresh take on an RPG-style modpack for those who love combat, loot, exploration, and a little bit of grinding!
 

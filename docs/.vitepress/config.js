@@ -2,7 +2,18 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Gorp's World",
   description: "Get ready for a jorpin' good time!",
-  head: [['link', {rel: 'icon', href: './favicon.ico' }]],
+  head: [
+    [
+      'link',{
+      rel: 'icon',
+      href: './favicon.ico'
+      }
+    ],
+    ['meta', {
+      property: 'og:image',
+      content: './gorpsworldicon.png'
+    }]
+  ],
   appearance: 'force-dark',
   themeConfig: {
     logo: './gorp.svg',
@@ -13,7 +24,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Introduction',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
