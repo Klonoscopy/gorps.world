@@ -16,24 +16,28 @@ export default defineConfig({
   ],
   appearance: 'force-dark',
   themeConfig: {
-    logo: './gorp.svg',
+    logo: '../gorp.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/wiki' }
+      { text: 'Wiki', link: '/wiki/gettingstarted' }
     ],
 
     sidebar: [
       {
         text: 'Introduction',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Getting Started', link: '/wiki/gettingstarted' },
+          { text: 'Story Progression', link: '/wiki/storyprogression' }
+        ]
+      },
+      {
+        text: 'What\'s New?',
+        collapsed: true,
+        items: [
+          { text: 'Items', link: '/wiki/items' },
+          { text: 'Blocks', link: '/wiki/blocks' }
         ]
       }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })

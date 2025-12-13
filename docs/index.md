@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Visit Wiki
-      link: /wiki
+      link: /wiki/gettingstarted
 features:
   - title: CurseForge
     icon:
