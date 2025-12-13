@@ -56,7 +56,7 @@ Gorp Seeds are obtained from Gorp Sprouts which generate in green and grassy bio
 
 
 
-<img src="../gorp-plant-crop.png" class="wiki-item"></img>
+<img src="../public/gorp-plant-crop.png" class="wiki-item"></img>
 **Gorp Plant**
 
 After a few moments, the Gorp Seed you placed will grow into a beautiful Gorp Plant.
