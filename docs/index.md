@@ -1,7 +1,7 @@
 ---
 layout: home
 head:
-  - ['link', { rel: 'preload stylesheet', href: './.vitepress/theme/home.css', as: 'style' }]
+  - ['link', { rel: 'preload stylesheet', href: '/home.css', as: 'style' }]
   - ['meta', { name: 'darkreader-lock' }]
 hero:
   name: "Gorp's World"
