@@ -1,5 +1,8 @@
 ---
 layout: home
+head:
+  - ['link', { rel: 'stylesheet', href: './.vitepress/theme/home.css' }]
+  - ['meta', { name: 'darkreader-lock' }]
 hero:
   name: "Gorp's World"
   tagline: "You're in his world now..."
@@ -7,9 +10,13 @@ hero:
     src: ./gorpsworld.svg
     alt: Gorp's World logo
   actions:
+    - theme: alt
+      text: Store
+      link: /store
     - theme: brand
       text: Visit Wiki
       link: /wiki/gettingstarted
+
 features:
   - title: CurseForge
     icon:
@@ -23,6 +30,7 @@ features:
     icon:
       src: ./exit.svg
     link: https://gorpsworld.linkh.at/fastfood
+    target: _self
 ---
 
 ::: warning ATTENTION

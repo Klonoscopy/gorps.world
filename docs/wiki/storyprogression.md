@@ -1,4 +1,7 @@
 ::: danger SPOILERS AHEAD
-From this point forward, the game will help you progress in the story by supplying you with clues and coded messages through the chat. This page may act as a guide if you need more thorough explanations on how to proceed in Gorp's World.
+From this point forward, the mod will support you with clues and coded messages in-game via chat messages. This page serves as a guide for  more thorough explanations on how to proceed in Gorp's World.
 :::
 
+# Story Progression
+
+## Permission Gorped

@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
-  title: "Gorp's World",
+  title: "gorps.world",
   description: "Get ready for a jorpin' good time!",
   head: [
     [
