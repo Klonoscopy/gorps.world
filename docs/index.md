@@ -3,7 +3,6 @@ layout: home
 head:
   - ['link', { rel: 'preload stylesheet', href: '/home.css', as: 'style' }]
   - ['meta', { name: 'darkreader-lock' }]
-  - ['meta', { property: 'og:image', content: 'https://htd4myn4pg.ufs.sh/f/zm6A7YwkHDCpVEHRNbZac94SGy8UbnimdgXDv0BRTZjxLN26' }]
 hero:
   name: "Gorp's World"
   tagline: "You're in his world now..."

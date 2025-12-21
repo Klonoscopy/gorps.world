@@ -8,7 +8,11 @@ export default defineConfig({
       rel: 'icon',
       href: './favicon.ico'
       }
-    ]
+    ],
+    ['meta', {
+      property: 'og:image',
+      content: 'https://htd4myn4pg.ufs.sh/f/zm6A7YwkHDCpVEHRNbZac94SGy8UbnimdgXDv0BRTZjxLN26'
+    }]
   ],
   appearance: 'force-dark',
   themeConfig: {
