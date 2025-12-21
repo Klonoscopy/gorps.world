@@ -3,5 +3,9 @@ From this point forward, the mod will support you with clues and coded messages 
 :::
 
 # Story Progression
-
-## Permission Gorped
+If you read this you are gorp
+## Ready Set Gorp
+## Mythical Gorpiphany
+## Altar Be Thy Gorp
+## Gorp Speaks
+## A Step Into the Gorp
