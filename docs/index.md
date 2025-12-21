@@ -3,8 +3,7 @@ layout: home
 head:
   - ['link', { rel: 'preload stylesheet', href: '/home.css', as: 'style' }]
   - ['meta', { name: 'darkreader-lock' }]
-  - ['meta', { property: 'og:image', content: './gorpsworldicon.png }]
-  
+  - ['meta', { property: 'og:image', content: './gorpsworldicon.png' }]
 hero:
   name: "Gorp's World"
   tagline: "You're in his world now..."
@@ -18,7 +17,6 @@ hero:
     - theme: brand
       text: Visit Wiki
       link: /wiki/gettingstarted
-
 features:
   - title: CurseForge
     icon:
