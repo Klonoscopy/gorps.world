@@ -8,11 +8,7 @@ export default defineConfig({
       rel: 'icon',
       href: './favicon.ico'
       }
-    ],
-    ['meta', {
-      property: 'image',
-      content: './gorpsworldicon.png'
-    }]
+    ]
   ],
   appearance: 'force-dark',
   themeConfig: {
