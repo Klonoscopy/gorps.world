@@ -1,37 +1,10 @@
 ---
 layout: false
+head:
+  - ['link', { rel: 'preload stylesheet', href: '/store.css', as: 'style' }]
+  - ['meta', { name: 'darkreader-lock' }]
+  - ['meta', { property: 'og:image', content: 'https://htd4myn4pg.ufs.sh/f/zm6A7YwkHDCpVEHRNbZac94SGy8UbnimdgXDv0BRTZjxLN26' }]
 ---
-<style>
-:root {
-  scrollbar-color: #00000000 #00000000!important;
-}
-* {
-    margin: 0;
-}
-.page {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-@media (min-width: 640px) {
-  .container {
-    right: -15px!important;
-  }
-}
-.container {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    overflow: auto;
-}
-html, body {
-    height: 100%;
-    overflow: hidden;
-}
-</style>
 <body>
 <div class="container">
     <picture>
