@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: alt
       text: Store
-      link: https://www.gorps.world/store
+      link: /store
     - theme: brand
       text: Visit Wiki
       link: /wiki/gettingstarted
