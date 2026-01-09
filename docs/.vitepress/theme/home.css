@@ -1,4 +1,4 @@
-.VPContent.is-home[data-v-98ddab3d] {
+.VPContent.is-home {
   height: 100vh;
 }
 .heading {
@@ -24,12 +24,13 @@
   min-width:32px;
   min-height:32px;
 }
-.item.grid-3 .box[data-v-549c013f]> .VPImage{
+.item.grid-3 .box> .VPImage{
   transition: filter 0.25s;
 }
-.item.grid-3 .box[data-v-549c013f]:hover > .VPImage {
+.item.grid-3 .box:hover > .VPImage {
   filter: saturate(0) brightness(2.5);
 }
+
 @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(56px);

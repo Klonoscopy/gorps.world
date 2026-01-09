@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: alt
       text: Store
-      link: /store
+      link: https://www.gorps.world/store
     - theme: brand
       text: Visit Wiki
       link: /wiki/gettingstarted
@@ -34,7 +34,7 @@ features:
 ---
 
 ::: warning ATTENTION
-This mod is a work in progress. Beta features subject to change. Update 10 is currently in production.
+This mod is a work in progress. Beta features are subject to change. Update 10 is currently in production.
 :::
 
 ::: tip <p class="custom-block-title adtext" title="Disclaimer: I'm not actually getting paid for this. I just thought it would be funny, and it is.">ADVERTISEMENT ⓘ</p>

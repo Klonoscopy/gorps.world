@@ -13,11 +13,36 @@
   --vp-sidebar-width: 300px!important;
   --vp-nav-height: 52px!important;
   /* light is treated as "default" */
-  scrollbar-color: #76c945 #00000000!important;
+  scrollbar-color: #7cc539 #00000000!important;
 }
 .VPButton.brand {
   text-shadow: 1px 1px 3px rgb(0 0 0 / 30%)!important;
 }
 .VPButton.medium, .custom-block {
   border-radius: 0px!important;
+}
+
+.VPHero.has-image .tagline {
+  color: var(--gorp-brand) !important;
+}
+
+.title span {
+  font-size: 1.2rem;
+  font-weight: 750;
+  letter-spacing: -0.03rem;
+  -webkit-background-clip: text!important;
+  background-size: 200%!important;
+  color: transparent !important;
+  animation: shine-reversed 1.5s ease infinite!important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--gorp-brand),
+    #e0ec8e,
+    var(--gorp-brand))!important;
+}
+
+@keyframes shine-reversed {
+  to {
+    background-position: -200% center;
+  }
 }
