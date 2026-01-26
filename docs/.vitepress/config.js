@@ -19,15 +19,16 @@ export default defineConfig({
     logo: '../gorp.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/wiki/gettingstarted' }
+      { text: 'Wiki', link: '/wiki/gettingstarted', activeMatch: '/wiki/'}
     ],
-
     sidebar: [
       {
         text: 'Introduction',
+        base: '/wiki/',
+        collapsed: false,
         items: [
-          { text: 'Getting Started', link: '/wiki/gettingstarted' },
-          { text: 'Story Progression', link: '/wiki/storyprogression' }
+          { text: 'Getting Started', link: '/gettingstarted' },
+          { text: 'Story Progression', link: '/storyprogression' }
         ]
       },
       {

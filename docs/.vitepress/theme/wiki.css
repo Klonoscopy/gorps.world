@@ -1,1 +1,53 @@
+img[alt="icon"] {
+    width: 80px;
+    margin: auto;
+    image-rendering: pixelated;
+}
+img[alt="advancement"] {
+    width: 72px;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    image-rendering: pixelated;
+    z-index: 1!important;
+}
+img[alt="block"] {
+    height: 72px;
+    width: 72px;
+    object-fit: contain;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    z-index: 1!important;
+}
+@font-face {
+    font-family: "MinecraftSeven";
+    src:
+    url("../Minecraft-Seven_v2.woff") format("woff");
+}
 
+code {
+    font-family: "MinecraftSeven";
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+}
+.vp-doc h2 .header-anchor {
+    top: 14px;
+}
+code span a {
+    text-decoration-line: none!important;
+}
+p code {
+    font-family: "MinecraftSeven";
+    letter-spacing: 0.03em;
+    font-size: 1.3rem!important;
+}
+.vp-doc h2 {
+    margin: 36px 0 16px;
+    padding-top: 14px;
+}
+
+.vp-doc h1 {
+    border-bottom: 1px solid var(--vp-c-divider);
+    padding-bottom: 6px;
+}

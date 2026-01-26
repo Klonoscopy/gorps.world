@@ -37,9 +37,10 @@ features:
 This mod is a work in progress. Beta features are subject to change. Update 10 is currently in production.
 :::
 
-::: tip <p class="custom-block-title adtext" title="Disclaimer: I'm not actually getting paid for this. I just thought it would be funny, and it is.">ADVERTISEMENT ⓘ</p>
-<img src="./public/lastascensionad.png" alt="Last Ascension modpack logo" class="lastascensionbanner"></img>
+::: tip <span class="custom-block-title adtext" title="ad·ver·tise·ment: a notice or announcement in a public medium promoting a product, service, or event or publicizing a job vacancy.">ADVERTISEMENT ⓘ</span>
+<img src="./lastascensionad.png" alt="Last Ascension modpack logo" class="lastascensionbanner"></img>
 Last Ascension is a fresh take on an RPG-style modpack for those who love combat, loot, exploration, and a little bit of grinding!
 
 Learn more about it here: [gorps.world/lastascension](/lastascension)
 :::
+<pre class="shiki disclaimer"><code><span class="disclaimer" style="--shiki-dark:#e1e4e835;">Disclaimer: I'm not actually making any money from this. I just thought it would be funny, and it is. I'm Laughin' A Boutit.</span></code></pre>
