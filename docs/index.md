@@ -38,7 +38,7 @@ This mod is a work in progress. Beta features are subject to change. Update 10 i
 :::
 
 ::: tip <span class="custom-block-title adtext" title="ad·ver·tise·ment: a notice or announcement in a public medium promoting a product, service, or event or publicizing a job vacancy.">ADVERTISEMENT ⓘ</span>
-<img src="./lastascensionad.png" alt="Last Ascension modpack logo" class="lastascensionbanner"></img>
+<img src="./public/lastascensionad.png" alt="Last Ascension modpack logo" class="lastascensionbanner"></img>
 Last Ascension is a fresh take on an RPG-style modpack for those who love combat, loot, exploration, and a little bit of grinding!
 
 Learn more about it here: [gorps.world/lastascension](/lastascension)

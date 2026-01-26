@@ -33,7 +33,7 @@ When you try to eat Gorp, you will drop all the Gorps in your inventory and a me
 
 The first time you try to eat Gorp, he will drop to the ground and a message pops up saying You don't have permission to do that.
 
-![block](../gorp-altar-empty.png)
+![block](../public/gorp-altar-empty.png)
 
 ## Altar Be Thy Gorp
 
@@ -44,7 +44,7 @@ The first time you try to eat Gorp, he will drop to the ground and a message pop
 
 The first time you try to eat Gorp, he will drop to the ground and a message pops up saying You don't have permission to do that.
 
-![block](../gorp-altar.png)
+![block](../public/gorp-altar.png)
 
 ## Gorp Speaks
 
