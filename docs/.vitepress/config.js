@@ -19,7 +19,8 @@ export default defineConfig({
     logo: '../gorp.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/wiki/gettingstarted', activeMatch: '/wiki/'}
+      { text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/'},
+      { text: 'Wiki', link: '/wiki/items', activeMatch: '/wiki/'}
     ],
     sidebar: [
       {
@@ -27,8 +28,9 @@ export default defineConfig({
         base: '/wiki/',
         collapsed: false,
         items: [
-          { text: 'Getting Started', link: '/gettingstarted' },
-          { text: 'Story Progression', link: '/storyprogression' }
+          { text: 'What is Gorp\'s World?', link: '/what-is-gorps-world' },
+          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Story Progression', link: '/story-progression' }
         ]
       },
       {
