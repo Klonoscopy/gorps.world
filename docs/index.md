@@ -16,7 +16,7 @@ hero:
       link: /store
     - theme: brand
       text: Visit Wiki
-      link: /wiki/gettingstarted
+      link: /guide/what-is-gorps-world
 features:
   - title: CurseForge
     icon:
