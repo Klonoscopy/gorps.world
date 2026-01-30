@@ -1,7 +1,7 @@
 {
-  "name": "my-vue-app",
+  "name": "gorps.world",
   "private": true,
-  "version": "10.0.0",
+  "version": "10",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,39 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "gorp",
+    "gorps",
+    "gorps world"
+  ],
+  "homepage": "https://gorps.world/",
+  "bugs": {
+    "url": "https://github.com/klonoscopy/gorps.world/issues"
+  },
+  "repository": "github:klonoscopy/gorps.world",
+  "license": "All Rights Reserved",
+  "author": "gorpdev",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./dist/node/index.js"
+    },
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json",
+    "./client": {
+      "types": "./client.d.ts",
+      "default": "./dist/client/index.js"
+    },
+    "./theme": {
+      "types": "./theme.d.ts",
+      "default": "./dist/client/theme-default/index.js"
+    },
+    "./theme-without-fonts": {
+      "types": "./theme-without-fonts.d.ts",
+      "default": "./dist/client/theme-default/without-fonts.js"
+    }
   },
   "dependencies": {
     "vue": "^3.5.24"

@@ -31,7 +31,7 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/wiki/'
     },
     {
-      text: pkg.version,
+      text: 'Update 10',
       items: [
         {
           text: 'Changelog',
@@ -45,80 +45,42 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarGuide(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Introduction',
+      text: 'Guide',
       collapsed: false,
       items: [
-        { text: 'What is VitePress?', link: 'what-is-vitepress' },
+        { text: 'What is Gorp\'s World?', link: 'what-is-gorps-world' },
         { text: 'Getting Started', link: 'getting-started' },
-        { text: 'Routing', link: 'routing' },
-        { text: 'Deploy', link: 'deploy' }
+        { text: 'Story Progression', link: 'story-progression' }
       ]
     },
     {
-      text: 'Writing',
-      collapsed: false,
+      text: 'Wiki',
+      collapsed: true,
       items: [
-        { text: 'Markdown Extensions', link: 'markdown' },
-        { text: 'Asset Handling', link: 'asset-handling' },
-        { text: 'Frontmatter', link: 'frontmatter' },
-        { text: 'Using Vue in Markdown', link: 'using-vue' },
-        { text: 'Internationalization', link: 'i18n' }
+        { text: 'Items', link: '../wiki/items' },
+        { text: 'Blocks', link: '../wiki/blocks' }
       ]
-    },
-    {
-      text: 'Customization',
-      collapsed: false,
-      items: [
-        { text: 'Using a Custom Theme', link: 'custom-theme' },
-        {
-          text: 'Extending the Default Theme',
-          link: 'extending-default-theme'
-        },
-        { text: 'Build-Time Data Loading', link: 'data-loading' },
-        { text: 'SSR Compatibility', link: 'ssr-compat' },
-        { text: 'Connecting to a CMS', link: 'cms' }
-      ]
-    },
-    {
-      text: 'Experimental',
-      collapsed: false,
-      items: [
-        { text: 'MPA Mode', link: 'mpa-mode' },
-        { text: 'Sitemap Generation', link: 'sitemap-generation' }
-      ]
-    },
-    { text: 'Config & API Reference', base: '/reference/', link: 'site-config' }
+    }
   ]
 }
 
 function sidebarReference(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Reference',
+      text: 'Wiki',
       items: [
-        { text: 'Site Config', link: 'site-config' },
-        { text: 'Frontmatter Config', link: 'frontmatter-config' },
-        { text: 'Runtime API', link: 'runtime-api' },
-        { text: 'CLI', link: 'cli' },
-        {
-          text: 'Default Theme',
-          base: '/reference/default-theme-',
-          items: [
-            { text: 'Overview', link: 'config' },
-            { text: 'Nav', link: 'nav' },
-            { text: 'Sidebar', link: 'sidebar' },
-            { text: 'Home Page', link: 'home-page' },
-            { text: 'Footer', link: 'footer' },
-            { text: 'Layout', link: 'layout' },
-            { text: 'Badge', link: 'badge' },
-            { text: 'Team Page', link: 'team-page' },
-            { text: 'Prev / Next Links', link: 'prev-next-links' },
-            { text: 'Edit Link', link: 'edit-link' },
-            { text: 'Last Updated Timestamp', link: 'last-updated' },
-            { text: 'Search', link: 'search' },
-            { text: 'Carbon Ads', link: 'carbon-ads' }
-          ]
-        }
+        { text: 'Items', link: 'items' },
+        { text: 'Blocks', link: 'blocks' }
+      ]
+    },
+    {
+      text: 'Guide',
+      collapsed: true,
+      base: '/guide/',
+      items: [
+        { text: 'What is Gorp\'s World?', link: 'what-is-gorps-world' },
+        { text: 'Getting Started', link: 'getting-started' },
+        { text: 'Story Progression', link: 'story-progression' }
       ]
     }
   ]
