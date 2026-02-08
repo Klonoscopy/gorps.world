@@ -31,7 +31,7 @@ When you try to eat Gorp, you will drop all the Gorps in your inventory and a me
 <span class="line"><span>&lt;Player&gt; That "the </span><a href="./items/#armor" style="--shiki-dark:#ade344;" title="The green little fella!">Gorp Altar</a><span> is the key."</span></span>
 <span class="line"><span>&lt;Player&gt; What could it mean?</span></span></code></pre></div>
 
-After attempting to bite Gorp, the player should sleep in a bed. Upon waking from your dream, you're left with a message from Gorp and the crafting recipe for a Gorp Altar.
+The first time you try to eat Gorp, he will drop to the ground and a message pops up saying You don't have permission to do that.
 
 ![block](../public/gorp-altar-empty.png)
 
@@ -39,10 +39,10 @@ After attempting to bite Gorp, the player should sleep in a bed. Upon waking fro
 
 ```ansi
 <Player> Crafting that Gorp Altar really tuckered me out!
-<Player> I should sleep in case I dream about [0;32mGorp[0m again...
+<Player> I should sleep in case I dream about Gorp again...
 ```
 
-Placing a Gorp Altar will cause you to have another Gorp related dream the next time you sleep.
+The first time you try to eat Gorp, he will drop to the ground and a message pops up saying You don't have permission to do that.
 
 ![block](../public/gorp-altar.png)
 
@@ -55,18 +55,7 @@ Placing a Gorp Altar will cause you to have another Gorp related dream the next 
 <Player> Is this what I think it means?
 ```
 
-Once you can figure out that you need to place a Gorp in the Gorp Altar, you will have another dream. This time, the message includes a key phrase that you can type into the Gorp Altar.
-
-![advancement](../assets/textures/advancements/permission_gorped.png)
-
 ## Permission Gorped
-
-```ansi
-<[0;32mGorp[0m> Bite my shiny metal ass!
-<Player> Ok I'll
-```
-
-You have just unlocked access to the entirety of Gorp's World! Now that you can create Bitten Gorps, you can craft various Gorp items.
 
 # Chapter 2: Gorp's World
 

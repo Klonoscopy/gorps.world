@@ -12,10 +12,10 @@ hero:
     alt: Gorp's World logo
   actions:
     - theme: alt
-      text: Visit Wiki
-      link: /wiki/items
+      text: Store
+      link: /store
     - theme: brand
-      text: Learn More
+      text: Visit Wiki
       link: /guide/what-is-gorps-world
 features:
   - title: CurseForge

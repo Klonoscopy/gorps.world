@@ -21,15 +21,6 @@ export default defineAdditionalConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: 'Update 10',
-      items: [
-        {
-          text: 'Changelog',
-          link: 'https://github.com/klonoscopy/gorps.world/blob/docs/CHANGELOG.md'
-        }
-      ]
-    },
-    {
       text: 'Guide',
       link: '/guide/what-is-gorps-world',
       activeMatch: '/guide/'
@@ -40,8 +31,13 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/wiki/'
     },
     {
-      text: 'Store',
-      link: '/store'
+      text: 'Update 10',
+      items: [
+        {
+          text: 'Changelog',
+          link: 'https://github.com/klonoscopy/gorps.world/blob/dev/CHANGELOG.md'
+        }
+      ]
     }
   ]
 }

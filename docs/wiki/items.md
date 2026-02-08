@@ -8,7 +8,7 @@ head:
         padding: 10px;
         image-rendering: pixelated
     }
-    .item-showcase, div[class="item-showcase"] strong {
+    .item-showcase, container strong {
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -28,31 +28,31 @@ head:
 ## Tools & Weapons
 
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/gorp_hammer.png" class="wiki-item long"></img>
 <strong>Gorp Hammer</strong>
-</div>
+</container>
 
 ---
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/gorp_spear.png" class="wiki-item long"></img>
 <strong>Gorp Spear</strong>
-</div>
+</container>
 
 ---
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/gorp_staff.png" class="wiki-item long"></img>
 <strong>Gorp Staff</strong>
-</div>
+</container>
 
 ---
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/glingshot.png" class="wiki-item"></img>
 <strong>Glingshot</strong>
-</div>
+</container>
 
 ## Armor
 
@@ -114,61 +114,61 @@ head:
 
 ---
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/dicey_gorp.png" class="wiki-item"></img>
 <strong>Dicey Gorp</strong>
-</div>
+</container>
 
 ## Crafting Materials
 
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/gorp_fabric.png" class="wiki-item"></img>
 <strong>High Quality Gorp Fabric</strong>
-</div>
+</container>
 
 ---
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/gorpium.png" class="wiki-item"></img>
 <strong>Gorpium</strong>
-</div>
+</container>
 
 These are found in clusters of Gorpolite.
 
 ## Special Items
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/gorpophone.png" class="wiki-item"></img>
 <strong>Gorpophone</strong>
-</div>
+</container>
 
 ---
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/gorpasol.png" class="wiki-item"></img>
 <strong>Gorpasol</strong>
-</div>
+</container>
 
 ---
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/gorp_rift_bioconduit.png" class="wiki-item"></img>
 <strong>Gorp Rift Bioconduit</strong>
-</div>
+</container>
 
 ---
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/gorp_coin.png" class="wiki-item"></img>
 <strong>Gorp Coin</strong>
-</div>
+</container>
 
 ---
 
-<div class="item-showcase">
+<container class="item-showcase">
 <img src="../assets/textures/item/suspicious_bread.png" class="wiki-item"></img>
 <strong>Suspicious Bread</strong>
-</div>
+</container>
 
 I mean I *think* it's just bread...?
