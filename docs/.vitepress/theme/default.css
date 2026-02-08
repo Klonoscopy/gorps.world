@@ -50,7 +50,7 @@
   }
 }
 .vp-doc [class*='language-'] code, .vp-doc [class*='language-'] pre {
-  padding: 1px 3px;
+  padding: 0px 3px;
 }
 .disclaimer {
   display: flex;
@@ -60,4 +60,11 @@
   margin-top: 0;
   margin-bottom: 8px;
   text-wrap: wrap;
+}
+
+div.custom-block {
+  -webkit-mask-box-image-source: url('../public/frame.svg');
+  -webkit-mask-box-image-slice: 4 fill;
+  -webkit-mask-box-image-width: 16px;
+  -webkit-mask-box-image-repeat: stretch;
 }
