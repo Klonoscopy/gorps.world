@@ -63,7 +63,7 @@
 }
 
 div.custom-block {
-  -webkit-mask-box-image-source: url('../public/frame.svg');
+  -webkit-mask-box-image-source: url('../../public/frame.svg');
   -webkit-mask-box-image-slice: 4 fill;
   -webkit-mask-box-image-width: 16px;
   -webkit-mask-box-image-repeat: stretch;
