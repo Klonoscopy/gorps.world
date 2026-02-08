@@ -25,7 +25,7 @@ function nav(): DefaultTheme.NavItem[] {
       items: [
         {
           text: 'Changelog',
-          link: 'https://github.com/klonoscopy/gorps.world/blob/dev/CHANGELOG.md'
+          link: 'https://github.com/klonoscopy/gorps.world/blob/docs/CHANGELOG.md'
         }
       ]
     },
