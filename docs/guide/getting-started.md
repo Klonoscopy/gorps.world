@@ -52,7 +52,7 @@ Gorp Sprouts will drop a few Gorp Seeds when broken. They generate in green gras
 :::
 
 
-![icon](./public/gorp-plant-crop.png)
+![icon](../public/gorp-plant-crop.png)
 **Gorp Plant**
 
 After a few moments, the Gorp Seed you sowed will age into a beautiful Gorp Plant.
