@@ -12,7 +12,11 @@
   --vp-home-hero-image-filter: blur(44px)!important;
   --vp-c-text-1: #fff!important;
   --vp-sidebar-width: 300px!important;
+  --vp-nav-logo-height: 32px;
   --vp-nav-height: 52px!important;
+  --vp-c-gray-soft: rgb(38 38 53);
+  --vp-c-divider: rgb(38 38 53);
+  --vp-code-font-size: 1.1em;
   /* light is treated as "default" */
   scrollbar-color: #7cc539 #00000000!important;
 }
@@ -58,5 +62,13 @@
   font-size: 1rem;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 8px;
   text-wrap: wrap;
+}
+
+div.custom-block, .details {
+  -webkit-mask-box-image-source: url('../public/frame.svg');
+  -webkit-mask-box-image-slice: 4 fill;
+  -webkit-mask-box-image-width: 16px;
+  -webkit-mask-box-image-repeat: stretch;
 }

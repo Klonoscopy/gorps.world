@@ -1,5 +1,5 @@
 {
-  "name": "my-vue-app",
+  "name": "gorps-world",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,17 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
+  "keywords": [
+    "gorp",
+    "gorps",
+    "gorps world"
+  ],
+  "homepage": "https://gorps.world/",
+  "bugs": {
+    "url": "https://github.com/klonoscopy/gorps.world/issues"
+  },
+  "repository": "github:klonoscopy/gorps.world",
+  "author": "gorpdev",
   "dependencies": {
     "vue": "^3.5.24"
   },

@@ -1,4 +1,4 @@
-## Gorp's World Update 10 (2026-02-06)
+## Gorp's World Update 10 (Unreleased)
 
 > Opening a world after updating will show an "experimental features" warning. This is because of the new dimension I added.
 

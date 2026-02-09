@@ -2,173 +2,212 @@
 layout: doc
 head:
   - ['style', {}, '
+    .vp-doc h2 {
+      border-top: 0;
+    }
     .wiki-item {
-        width: 90px;
-        margin: auto;
-        padding: 10px;
-        image-rendering: pixelated
+      width: 116px;
+      height: 116px;
+      background: rgb(38 38 53);
+      -webkit-mask-box-image-source: url(/frame.svg);
+      -webkit-mask-box-image-slice: 4 fill;
+      -webkit-mask-box-image-width: 16px;
+      -webkit-mask-box-image-repeat: stretch;
+      padding: 10px;
+      image-rendering: pixelated;
+      margin-right: 16px;
     }
-    .item-showcase, container strong {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
+    .item-showcase, div[class="item-showcase"] strong {
+      display: flex;
+      flex-direction: row;
     }
-
-    .vp-doc p, .vp-doc summary {
-        text-align: center;
+    .recipe-block {
+      display: flex;
+      padding-top: 12px;
+      padding-bottom: 15px;
+      margin: auto;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column;
+      column-gap: 15px;
     }
-
+    .Recipe {
+      position: absolute;
+      margin: 10px 0 0;
+    }
+    .RecipeContainer {
+      position: relative;
+    }
+    .background {
+      position: relative;
+      z-index: -10;
+      min-width: 116px;
+      height: 116px;
+      background: rgb(38 38 53);
+      -webkit-mask-box-image-source: url(/frame.svg);
+      -webkit-mask-box-image-slice: 4 fill;
+      -webkit-mask-box-image-width: 16px;
+      -webkit-mask-box-image-repeat: stretch;
+      padding: 10px;
+      image-rendering: pixelated;
+      margin-right: 16px;
+    }
+    .foreground {
+      position: relative;
+      min-width: 96px;
+      height: 96px;
+      padding: 0;
+      margin: 0;
+    }
+    .glint {
+      position: absolute;
+      width: 116px;
+      height: 116px;
+      z-index: 0;
+      background: transparent;
+      padding: 10px;
+      image-rendering: pixelated;
+      margin-right: 16px;
+      background-image: url("../../enchanted_glint_item.png");
+      background-size: 640px;
+      background-origin: content-box;
+      mask-image: url("../assets/textures/item/dicey_gorp.png"), none;
+      mask-position: center;
+      mask-size: 96px;
+      mix-blend-mode: screen;
+      mask-repeat: no-repeat;
+      animation: shine-reversed 15s linear infinite;
+    }
+    .translucent {
+      width: 116px;
+      z-index: -10;
+      opacity: 100%;
+      image-rendering: pixelated;
+    }
+    .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 4px;
+    }
+    .summary {
+      line-height: 22px;
+      text-wrap: wrap;
+      max-width: 480px;
+    }
+    .title {
+      font-family: "MinecraftSeven";
+      font-size: 1.5em;
+    }
     .wiki-item.long {
-    width: 160px;
+      width: 116px;
+    }
+    @keyframes shine-reversed {
+      0% {
+        background-position: 0 0, center;
+      }
+      100% {
+        background-position: 640px 640px, center;
+      }
     }
   ']
 ---
+<script setup>
+import { ref } from 'vue';
+import items from './entries.json';
+</script>
 
+## Weapons
 
-## Tools & Weapons
+<div v-for="item in items.weapons" :key="item.id" class="wiki-entry">
+<hr>
+  <div class="item-showcase">
+    <img :src="item.url" class="wiki-item"></img>
+    <span class="description">
+      <span class="title">{{ item.name }}</span>
+      <span class="summary">{{ item.summary }}</span>
+    </span>
+  </div>
+  <div class="info custom-block recipe-block">
+    <h5>Crafting Recipe</h5>
+    <img src="./recipes/recipe-container.png" class="Recipe"></img>
+    <img :src="item.recipe" class="Recipe RecipeContainer"></img>
+  </div>
+</div>
 
+## Tools
 
-<container class="item-showcase">
-<img src="../assets/textures/item/gorp_hammer.png" class="wiki-item long"></img>
-<strong>Gorp Hammer</strong>
-</container>
-
----
-
-<container class="item-showcase">
-<img src="../assets/textures/item/gorp_spear.png" class="wiki-item long"></img>
-<strong>Gorp Spear</strong>
-</container>
-
----
-
-<container class="item-showcase">
-<img src="../assets/textures/item/gorp_staff.png" class="wiki-item long"></img>
-<strong>Gorp Staff</strong>
-</container>
-
----
-
-<container class="item-showcase">
-<img src="../assets/textures/item/glingshot.png" class="wiki-item"></img>
-<strong>Glingshot</strong>
-</container>
+<div v-for="item in items.tools" :key="item.id">
+<hr>
+  <div class="item-showcase">
+    <img :src="item.url" class="wiki-item"></img>
+    <span class="description">
+      <span class="title">{{ item.name }}</span>
+      <span class="summary">{{ item.summary }}</span>
+    </span>
+  </div>
+</div>
 
 ## Armor
 
-**Gorp Respirator**
-
-<img src="../assets/textures/item/gorp_respirator.png" class="wiki-item"></img>
-
----
-
-**I Love Gorp T-Shirt**
-
-<img src="../assets/textures/item/gorp_shirt.png" class="wiki-item"></img>
-
----
-
-**Gorp Pajamas**
-
-<img src="../assets/textures/item/gorp_pajamas.png" class="wiki-item"></img>
-
----
-
-**Impact Dampening Gorp Boots**
-
-<img src="../assets/textures/item/impact_echoing_gorp_footwear.png" class="wiki-item"></img>
-
----
+<div v-for="item in items.armor" :key="item.id">
+<hr>
+  <div class="item-showcase">
+    <img :src="item.url" class="wiki-item"></img>
+    <span class="description">
+      <span class="title">{{ item.name }}</span>
+      <span class="summary">{{ item.summary }}</span>
+    </span>
+  </div>
+</div>
 
 ## Food and Consumables
 
-**Jorp Juice**
-
-<img src="../assets/textures/item/jorp_juice.png" class="wiki-item"></img>
-
----
-
-**Roasted Gorp Seed**
-
-<img src="../assets/textures/item/roasted_gorp_seed.png" class="wiki-item"></img>
-
----
-
-**Consolidated Gorp Cube**
-
-<img src="../assets/textures/item/consolidated_gorp_cube.png" class="wiki-item"></img>
-
----
+<div v-for="item in items.food" :key="item.id">
+<hr>
+  <div class="item-showcase">
+    <img :src="item.url" class="wiki-item"></img>
+    <span class="description">
+      <span class="title">{{ item.name }}</span>
+      <span class="summary">{{ item.summary }}</span>
+    </span>
+  </div>
+</div>
 
 ### Elemental Gorps
 
-**Spicy Gorp**
+<div v-for="item in items.gorps" :key="item.id">
+<hr>
+  <div class="item-showcase">
+    <img :src="item.url" class="wiki-item"></img>
+    <span class="description">
+      <span class="title">{{ item.name }}</span>
+      <span class="summary">{{ item.summary }}</span>
+    </span>
+  </div>
+</div>
 
-<img src="../assets/textures/item/molten_gorp.png" class="wiki-item"></img>
-
----
-
-**Icy Gorp**
-
-<img src="../assets/textures/item/icy_gorp.png" class="wiki-item"></img>
-
----
-
-<container class="item-showcase">
-<img src="../assets/textures/item/dicey_gorp.png" class="wiki-item"></img>
-<strong>Dicey Gorp</strong>
-</container>
+<div>
+<hr>
+  <div class="item-showcase">
+    <span class="glint"></span>
+    <span class="background"><img src="../assets/textures/item/dicey_gorp.png" class="background foreground"></img></span>
+    <span class="description">
+      <span class="title">Upgraded Dicey Gorp</span>
+      <span class="summary">Grants better effects than a regular Dicey Gorp.</span>
+    </span>
+  </div>
+</div>
 
 ## Crafting Materials
 
-
-<container class="item-showcase">
-<img src="../assets/textures/item/gorp_fabric.png" class="wiki-item"></img>
-<strong>High Quality Gorp Fabric</strong>
-</container>
-
----
-
-<container class="item-showcase">
-<img src="../assets/textures/item/gorpium.png" class="wiki-item"></img>
-<strong>Gorpium</strong>
-</container>
-
-These are found in clusters of Gorpolite.
-
-## Special Items
-
-<container class="item-showcase">
-<img src="../assets/textures/item/gorpophone.png" class="wiki-item"></img>
-<strong>Gorpophone</strong>
-</container>
-
----
-
-<container class="item-showcase">
-<img src="../assets/textures/item/gorpasol.png" class="wiki-item"></img>
-<strong>Gorpasol</strong>
-</container>
-
----
-
-<container class="item-showcase">
-<img src="../assets/textures/item/gorp_rift_bioconduit.png" class="wiki-item"></img>
-<strong>Gorp Rift Bioconduit</strong>
-</container>
-
----
-
-<container class="item-showcase">
-<img src="../assets/textures/item/gorp_coin.png" class="wiki-item"></img>
-<strong>Gorp Coin</strong>
-</container>
-
----
-
-<container class="item-showcase">
-<img src="../assets/textures/item/suspicious_bread.png" class="wiki-item"></img>
-<strong>Suspicious Bread</strong>
-</container>
-
-I mean I *think* it's just bread...?
+<div v-for="item in items.materials" :key="item.id">
+<hr>
+  <div class="item-showcase">
+    <img :src="item.url" class="wiki-item"></img>
+    <span class="description">
+      <span class="title">{{ item.name }}</span>
+      <span class="summary">{{ item.summary }}</span>
+    </span>
+  </div>
+</div>

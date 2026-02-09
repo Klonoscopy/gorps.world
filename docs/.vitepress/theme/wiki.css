@@ -23,9 +23,18 @@ img[alt="block"] {
 @font-face {
     font-family: "MinecraftSeven";
     src:
-    url("../Minecraft-Seven_v2.woff") format("woff");
+    url("../MinecraftSeven.woff") format("woff");
 }
-
+@font-face {
+    font-family: "MinecraftSeven";
+    src: url("../MinecraftSeven-Oblique.woff") format("woff");
+    font-style: italic;
+}
+.whisper {
+    font-family: "MinecraftSeven";
+    font-style: italic;
+    color: #a8a8a8!important;
+}
 code {
     font-family: "MinecraftSeven";
     font-size: 1.5rem;
@@ -36,6 +45,7 @@ code {
 }
 code span a {
     text-decoration-line: none!important;
+    text-wrap: wrap;
 }
 p code {
     font-family: "MinecraftSeven";
@@ -45,9 +55,20 @@ p code {
 .vp-doc h2 {
     margin: 36px 0 16px;
     padding-top: 14px;
+    right: 7px;
 }
 
 .vp-doc h1 {
     border-bottom: 1px solid var(--vp-c-divider);
     padding-bottom: 6px;
+}
+
+.vp-doc div[class*='language-'], .vp-block {
+    margin: 0px -2px;
+}
+.vp-doc [class*='language-'] code, .vp-doc [class*='language-'] pre {
+    overflow: hidden;
+}
+.dark .shiki span{
+    text-wrap: wrap;
 }

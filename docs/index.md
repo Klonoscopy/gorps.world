@@ -2,8 +2,6 @@
 layout: home
 head:
   - ['link', { rel: 'preload stylesheet', href: '/home.css', as: 'style' }]
-  - ['meta', { name: 'darkreader-lock' }]
-  - ['meta', { property: 'og:image', content: 'https://htd4myn4pg.ufs.sh/f/zm6A7YwkHDCpVEHRNbZac94SGy8UbnimdgXDv0BRTZjxLN26' }]
 hero:
   name: "Gorp's World"
   tagline: "You're in his world now..."
@@ -12,11 +10,11 @@ hero:
     alt: Gorp's World logo
   actions:
     - theme: alt
-      text: Store
-      link: /store
-    - theme: brand
       text: Visit Wiki
-      link: /wiki/gettingstarted
+      link: /wiki/items
+    - theme: brand
+      text: Learn More
+      link: /guide/what-is-gorps-world
 features:
   - title: CurseForge
     icon:
@@ -34,11 +32,11 @@ features:
 ---
 
 ::: warning ATTENTION
-This mod is a work in progress. Beta features are subject to change. Update 10 is currently in production.
+Your experience may suffer if you are not an English speaker due to the mod's story elements. This mod currently in beta and features are subject to change.
 :::
 
 ::: tip <span class="custom-block-title adtext" title="ad·ver·tise·ment: a notice or announcement in a public medium promoting a product, service, or event or publicizing a job vacancy.">ADVERTISEMENT ⓘ</span>
-<img src="./public/lastascensionad.png" alt="Last Ascension modpack logo" class="lastascensionbanner"></img>
+<img src="../lastascensionad.png" alt="Last Ascension modpack logo" class="lastascensionbanner"></img>
 Last Ascension is a fresh take on an RPG-style modpack for those who love combat, loot, exploration, and a little bit of grinding!
 
 Learn more about it here: [gorps.world/lastascension](/lastascension)
