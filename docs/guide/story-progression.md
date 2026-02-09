@@ -36,7 +36,7 @@ When you try to eat Gorp, you will drop all the Gorps in your inventory and a me
 
 After attempting to bite Gorp, the player should sleep in a bed. Upon waking from your dream, you're left with a message from Gorp and the crafting recipe for a Gorp Altar.
 
-![block](./gorp-altar-empty.png)
+![block](./public/gorp-altar-empty.png)
 
 ## Altar Be Thy Gorp
 
@@ -49,7 +49,7 @@ After attempting to bite Gorp, the player should sleep in a bed. Upon waking fro
 
 Placing a Gorp Altar will cause you to have another Gorp related dream the next time you sleep.
 
-![block](./gorp-altar.png)
+![block](./public/gorp-altar.png)
 
 ## Gorp Speaks
 
