@@ -23,11 +23,11 @@ img[alt="block"] {
 @font-face {
     font-family: "MinecraftSeven";
     src:
-    url("../public/MinecraftSeven.woff") format("woff");
+    url("../../public/MinecraftSeven.woff") format("woff");
 }
 @font-face {
     font-family: "MinecraftSeven";
-    src: url("../public/MinecraftSeven-Oblique.woff") format("woff");
+    src: url("../../public/MinecraftSeven-Oblique.woff") format("woff");
     font-style: italic;
 }
 .whisper {
