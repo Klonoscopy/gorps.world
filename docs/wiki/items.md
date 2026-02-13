@@ -242,7 +242,7 @@ import items from './entries.json';
 <hr>
   <div class="item-showcase">
     <span class="glint"></span>
-    <span class="background"><img src="../textures/item/dicey_gorp.png" class="background foreground"></img></span>
+    <span class="background"><img src="../public/textures/item/dicey_gorp.png" class="background foreground"></img></span>
     <span class="description">
       <span class="title">Upgraded Dicey Gorp</span>
       <span class="summary">Grants better effects than a regular Dicey Gorp.</span>
