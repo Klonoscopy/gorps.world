@@ -118,7 +118,7 @@ import items from './entries.json';
 ## Weapons
 
 <div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../textures/item/gorp_hammer.png" class="wiki-item"></img>
+  <img src="../public/textures/item/gorp_hammer.png" class="wiki-item"></img>
   <span class="description">
     <span class="title">
     Gorp Hammer
@@ -135,7 +135,7 @@ import items from './entries.json';
 </div>
 
 <div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../textures/item/gorp_spear.png" class="wiki-item"></img>
+  <img src="../public/textures/item/gorp_spear.png" class="wiki-item"></img>
   <span class="description">
     <span class="title">
     Gorp Spear
@@ -152,7 +152,7 @@ import items from './entries.json';
 </div>
 
 <div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../textures/item/gorp_staff.png" class="wiki-item"></img>
+  <img src="../public/textures/item/gorp_staff.png" class="wiki-item"></img>
   <span class="description">
     <span class="title">
     Gorp Staff
@@ -169,7 +169,7 @@ import items from './entries.json';
 </div>
 
 <div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../textures/item/glingshot.png" class="wiki-item"></img>
+  <img src="../public/textures/item/glingshot.png" class="wiki-item"></img>
   <span class="description">
     <span class="title">
     Glingshot
