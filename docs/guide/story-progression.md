@@ -12,7 +12,7 @@ From this point forward, the mod will try to help you progress through the story
 
 After getting to know your Gorp, the thought that he slightly resembles a bean occurs to you. On an impulse, you try to take a bite of the squishy green creature. Suddenly, you are stricken by intense nausea and a taste certainly unbefitting of food is left in your mouth. As you come to, you realise your hand is empty. Hold on, you didn't intend on dropping Gorp. In fact, you were sure you had a tight hold on him! Perhaps it was no accident that you dropped him.
 
-![advancement](../assets/textures/advancements/gorpcess_denied.png)
+![advancement](../textures/advancements/gorpcess_denied.png)
 
 ## Gorpcess Denied
 
@@ -22,7 +22,7 @@ After getting to know your Gorp, the thought that he slightly resembles a bean o
 When you try to eat Gorp, you will drop all the Gorps in your inventory and a message will appear saying "You don't have permission to do that. You will only be inflicted with nausea the first time.
 
 
-![advancement](../assets/textures/advancements/mythical_gorpiphany.png)
+![advancement](../textures/advancements/mythical_gorpiphany.png)
 
 ## Mythical Gorpiphany
 
@@ -63,7 +63,7 @@ Placing a Gorp Altar will cause you to have another Gorp related dream the next 
 
 Once you can figure out that you need to place a Gorp in the Gorp Altar, you will have another dream. This time, the message includes a key phrase that you can type into the Gorp Altar.
 
-![advancement](../assets/textures/advancements/permission_gorped.png)
+![advancement](../textures/advancements/permission_gorped.png)
 
 ## Permission Gorped
 
