@@ -117,71 +117,16 @@ import items from './entries.json';
 
 ## Weapons
 
-<div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../public/textures/item/gorp_hammer.png" class="wiki-item"></img>
+<div v-for="item in items.tools" :key="item.id" class="wiki-entry"><hr><div class="item-showcase">
+  <img :src="withBase(item.url)" class="wiki-item"></img>
   <span class="description">
-    <span class="title">
-    Gorp Hammer
-    </span>
-    <span class="summary">
-    Makes you and your target Jorp on hit.
-    </span>
+    <span class="title">{{ item.name }}</span>
+    <span class="summary">{{ item.summary }}</span>
   </span></div>
   <details class="details custom-block recipe-block">
     <summary>Crafting Recipe</summary>
     <img src="./recipes/recipe-container.png" class="Recipe"></img>
-    <img src="./recipes/gorp-hammer.png" class="Recipe RecipeContainer"></img>
-  </details>
-</div>
-
-<div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../public/textures/item/gorp_spear.png" class="wiki-item"></img>
-  <span class="description">
-    <span class="title">
-    Gorp Spear
-    </span>
-    <span class="summary">
-    Launches you in the direction you are looking.
-    </span>
-  </span></div>
-  <details class="details custom-block recipe-block">
-    <summary>Crafting Recipe</summary>
-    <img src="./recipes/recipe-container.png" class="Recipe"></img>
-    <img src="./recipes/gorp-spear.png" class="Recipe RecipeContainer"></img>
-  </details>
-</div>
-
-<div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../public/textures/item/gorp_staff.png" class="wiki-item"></img>
-  <span class="description">
-    <span class="title">
-    Gorp Staff
-    </span>
-    <span class="summary">
-    Sends mobs flying away from you.
-    </span>
-  </span></div>
-  <details class="details custom-block recipe-block">
-    <summary>Crafting Recipe</summary>
-    <img src="./recipes/recipe-container.png" class="Recipe"></img>
-    <img src="./recipes/gorp-staff.png" class="Recipe RecipeContainer"></img>
-  </details>
-</div>
-
-<div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../public/textures/item/glingshot.png" class="wiki-item"></img>
-  <span class="description">
-    <span class="title">
-    Glingshot
-    </span>
-    <span class="summary">
-    Gives the target the gift of a Gorp Coin.
-    </span>
-  </span></div>
-  <details class="details custom-block recipe-block">
-    <summary>Crafting Recipe</summary>
-    <img src="./recipes/recipe-container.png" class="Recipe"></img>
-    <img src="./recipes/glingshot.png" class="Recipe RecipeContainer"></img>
+    <img :src="withBase(item.recipe)" class="Recipe RecipeContainer"></img>
   </details>
 </div>
 

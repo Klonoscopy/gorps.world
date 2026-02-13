@@ -8,7 +8,7 @@ export default defineConfig({
   description: "A Gorp\'s World like no other.",
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '../assets/textures/item/gorp.png' }],
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '../assets/textures/item/gorp.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '../gorp.svg' }],
     ['meta', { name: 'theme-color', content: '#ade344' }],
     ['meta', { name: 'darkreader-lock' }],
     ['meta', { property: 'og:type', content: 'website' }],
