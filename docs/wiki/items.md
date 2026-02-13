@@ -56,7 +56,26 @@ head:
       padding: 0;
       margin: 0;
     }
-    .glint {
+    .glint-bioconduit {
+      position: absolute;
+      width: 116px;
+      height: 116px;
+      z-index: 0;
+      background: transparent;
+      padding: 10px;
+      image-rendering: pixelated;
+      margin-right: 16px;
+      background-image: url("/enchanted_glint_item.png");
+      background-size: 640px;
+      background-origin: content-box;
+      mask-image: url("/gorp_rift_bioconduit.png"), none;
+      mask-position: center;
+      mask-size: 96px;
+      mix-blend-mode: screen;
+      mask-repeat: no-repeat;
+      animation: shine-reversed 14s linear infinite;
+    }
+    .glint-dicey {
       position: absolute;
       width: 116px;
       height: 116px;
@@ -73,7 +92,7 @@ head:
       mask-size: 96px;
       mix-blend-mode: screen;
       mask-repeat: no-repeat;
-      animation: shine-reversed 15s linear infinite;
+      animation: shine-reversed 14s linear infinite;
     }
     .translucent {
       width: 116px;
@@ -144,6 +163,18 @@ import items from './entries.json';
   </div>
 </div>
 
+<div>
+<hr>
+  <div class="item-showcase">
+    <span class="glint-bioconduit"></span>
+    <span class="background"><img src="../public/textures/item/gorp_rift_bioconduit.png" class="background foreground"></img></span>
+    <span class="description">
+      <span class="title">Gorp Rift Bioconduit</span>
+      <span class="summary">Used to travel between Gorp's World and the overworld.</span>
+    </span>
+  </div>
+</div>
+
 ## Armor
 
 <div v-for="item in items.armor" :key="item.id">
@@ -186,7 +217,7 @@ import items from './entries.json';
 <div>
 <hr>
   <div class="item-showcase">
-    <span class="glint"></span>
+    <span class="glint-dicey"></span>
     <span class="background"><img src="../public/textures/item/dicey_gorp.png" class="background foreground"></img></span>
     <span class="description">
       <span class="title">Upgraded Dicey Gorp</span>
