@@ -117,17 +117,17 @@ import items from './entries.json';
 
 ## Weapons
 
-<div v-for="item in items.tools" :key="item.id" class="wiki-entry"><hr><div class="item-showcase">
-  <img :src="withBase(item.url)" class="wiki-item"></img>
-  <span class="description">
-    <span class="title">{{ item.name }}</span>
-    <span class="summary">{{ item.summary }}</span>
-  </span></div>
-  <details class="details custom-block recipe-block">
-    <summary>Crafting Recipe</summary>
-    <img src="./recipes/recipe-container.png" class="Recipe"></img>
-    <img :src="withBase(item.recipe)" class="Recipe RecipeContainer"></img>
-  </details>
+<div v-for="item in items.weapons" :key="item.id" class="wiki-entry">
+<hr>
+  <div class="item-showcase"><img :src="withBase(item.url)" class="wiki-item"></img>
+    <span class="description">
+      <span class="title">{{ item.name }}</span>
+      <span class="summary">{{ item.summary }}</span>
+    </span></div>
+    <details class="details custom-block recipe-block"><summary>Crafting Recipe</summary>
+      <img src="./recipes/recipe-container.png" class="Recipe"></img>
+      <img :src="withBase(item.recipe)" class="Recipe RecipeContainer"></img>
+    </details>
 </div>
 
 
