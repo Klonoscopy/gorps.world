@@ -68,7 +68,7 @@ head:
       background-image: url("/enchanted_glint_item.png");
       background-size: 640px;
       background-origin: content-box;
-      mask-image: url("/assets/textures/item/dicey_gorp.png"), none;
+      mask-image: url("/dicey_gorp.png"), none;
       mask-position: center;
       mask-size: 96px;
       mix-blend-mode: screen;
@@ -118,7 +118,7 @@ import items from './entries.json';
 ## Weapons
 
 <div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../assets/textures/item/gorp_hammer.png" class="wiki-item"></img>
+  <img src="../textures/item/gorp_hammer.png" class="wiki-item"></img>
   <span class="description">
     <span class="title">
     Gorp Hammer
@@ -135,7 +135,7 @@ import items from './entries.json';
 </div>
 
 <div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../assets/textures/item/gorp_spear.png" class="wiki-item"></img>
+  <img src="../textures/item/gorp_spear.png" class="wiki-item"></img>
   <span class="description">
     <span class="title">
     Gorp Spear
@@ -152,7 +152,7 @@ import items from './entries.json';
 </div>
 
 <div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../assets/textures/item/gorp_staff.png" class="wiki-item"></img>
+  <img src="../textures/item/gorp_staff.png" class="wiki-item"></img>
   <span class="description">
     <span class="title">
     Gorp Staff
@@ -169,7 +169,7 @@ import items from './entries.json';
 </div>
 
 <div class="wiki-entry"><hr><div class="item-showcase">
-  <img src="../assets/textures/item/glingshot.png" class="wiki-item"></img>
+  <img src="../textures/item/glingshot.png" class="wiki-item"></img>
   <span class="description">
     <span class="title">
     Glingshot
@@ -242,7 +242,7 @@ import items from './entries.json';
 <hr>
   <div class="item-showcase">
     <span class="glint"></span>
-    <span class="background"><img src="../assets/textures/item/dicey_gorp.png" class="background foreground"></img></span>
+    <span class="background"><img src="../textures/item/dicey_gorp.png" class="background foreground"></img></span>
     <span class="description">
       <span class="title">Upgraded Dicey Gorp</span>
       <span class="summary">Grants better effects than a regular Dicey Gorp.</span>

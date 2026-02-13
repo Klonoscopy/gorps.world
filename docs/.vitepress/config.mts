@@ -8,6 +8,7 @@ export default defineConfig({
   description: "A Gorp\'s World like no other.",
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '../assets/textures/item/gorp.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '../assets/textures/item/gorp.svg' }],
     ['meta', { name: 'theme-color', content: '#ade344' }],
     ['meta', { name: 'darkreader-lock' }],
     ['meta', { property: 'og:type', content: 'website' }],
@@ -20,7 +21,7 @@ export default defineConfig({
 
     sidebar: {
       '/guide/': { base: '/guide/', items: sidebarGuide() },
-    '/wiki/': { base: '/wiki/', items: sidebarReference() }
+      '/wiki/': { base: '/wiki/', items: sidebarReference() }
     },
 
     logo: { src: '../gorp.svg', width: 32, height: 32 },
