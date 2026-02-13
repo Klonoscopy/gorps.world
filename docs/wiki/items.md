@@ -22,21 +22,18 @@ head:
       flex-direction: row;
     }
     .recipe-block {
-      display: flex;
-      padding-top: 12px;
-      padding-bottom: 15px;
-      margin: auto;
-      justify-content: flex-end;
-      align-items: center;
-      flex-direction: column;
-      column-gap: 15px;
+      max-height: 204px;
     }
     .Recipe {
-      position: absolute;
-      margin: 10px 0 0;
+      position: relative;
+      image-rendering: pixelated;
+      min-width: 234px;
+      height: 136px;
+      margin: 0 auto 8px;
     }
     .RecipeContainer {
-      position: relative;
+      margin: 0 auto;
+      top: -144px;
     }
     .background {
       position: relative;
@@ -68,10 +65,10 @@ head:
       padding: 10px;
       image-rendering: pixelated;
       margin-right: 16px;
-      background-image: url("../public/enchanted_glint_item.png");
+      background-image: url("/enchanted_glint_item.png");
       background-size: 640px;
       background-origin: content-box;
-      mask-image: url("../assets/textures/item/dicey_gorp.png"), none;
+      mask-image: url("/assets/textures/item/dicey_gorp.png"), none;
       mask-position: center;
       mask-size: 96px;
       mix-blend-mode: screen;
@@ -120,21 +117,74 @@ import items from './entries.json';
 
 ## Weapons
 
-<div v-for="item in items.weapons" :key="item.id" class="wiki-entry">
-<hr>
-  <div class="item-showcase">
-    <img :src="withBase(item.url)" class="wiki-item"></img>
-    <span class="description">
-      <span class="title">{{ item.name }}</span>
-      <span class="summary">{{ item.summary }}</span>
+<div class="wiki-entry"><hr><div class="item-showcase">
+  <img src="../assets/textures/item/gorp_hammer.png" class="wiki-item"></img>
+  <span class="description">
+    <span class="title">
+    Gorp Hammer
     </span>
-  </div>
-  <div class="info custom-block recipe-block">
-    <h5>Crafting Recipe</h5>
+    <span class="summary">
+    Makes you and your target Jorp on hit.
+    </span>
+  </span></div>
+  <details class="details custom-block recipe-block">
+    <summary>Crafting Recipe</summary>
     <img src="./recipes/recipe-container.png" class="Recipe"></img>
-    <img :src="withBase(item.recipe)" class="Recipe RecipeContainer"></img>
-  </div>
+    <img src="./recipes/gorp-hammer.png" class="Recipe RecipeContainer"></img>
+  </details>
 </div>
+
+<div class="wiki-entry"><hr><div class="item-showcase">
+  <img src="../assets/textures/item/gorp_spear.png" class="wiki-item"></img>
+  <span class="description">
+    <span class="title">
+    Gorp Spear
+    </span>
+    <span class="summary">
+    Launches you in the direction you are looking.
+    </span>
+  </span></div>
+  <details class="details custom-block recipe-block">
+    <summary>Crafting Recipe</summary>
+    <img src="./recipes/recipe-container.png" class="Recipe"></img>
+    <img src="./recipes/gorp-spear.png" class="Recipe RecipeContainer"></img>
+  </details>
+</div>
+
+<div class="wiki-entry"><hr><div class="item-showcase">
+  <img src="../assets/textures/item/gorp_staff.png" class="wiki-item"></img>
+  <span class="description">
+    <span class="title">
+    Gorp Staff
+    </span>
+    <span class="summary">
+    Sends mobs flying away from you.
+    </span>
+  </span></div>
+  <details class="details custom-block recipe-block">
+    <summary>Crafting Recipe</summary>
+    <img src="./recipes/recipe-container.png" class="Recipe"></img>
+    <img src="./recipes/gorp-staff.png" class="Recipe RecipeContainer"></img>
+  </details>
+</div>
+
+<div class="wiki-entry"><hr><div class="item-showcase">
+  <img src="../assets/textures/item/glingshot.png" class="wiki-item"></img>
+  <span class="description">
+    <span class="title">
+    Glingshot
+    </span>
+    <span class="summary">
+    Gives the target the gift of a Gorp Coin.
+    </span>
+  </span></div>
+  <details class="details custom-block recipe-block">
+    <summary>Crafting Recipe</summary>
+    <img src="./recipes/recipe-container.png" class="Recipe"></img>
+    <img src="./recipes/glingshot.png" class="Recipe RecipeContainer"></img>
+  </details>
+</div>
+
 
 ## Tools
 

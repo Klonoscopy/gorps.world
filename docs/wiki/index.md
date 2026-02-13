@@ -26,3 +26,5 @@ head:
 
 
 # Welcome to Gorp's World Wiki
+
+Take a look around, it's Limp Bizkit funkin' up your town.
