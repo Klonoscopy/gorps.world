@@ -42,7 +42,7 @@ Gorp's World is a Minecraft mod dedicated to bringing the world of Gorp into the
 This is a mod that introduces new and inventive combat, gameplay, and traversal mechanics.
 
 ## Who is Gorp?
-![icon](../textures/item/gorp.png)
+![icon](../public/textures/item/gorp.png)
 **Gorp**
 
 The star of the show is this green, lovable, bean-shaped creature named Gorp. Despite his handsome charm, Gorp isn't food. Instead, he is a multi-purpose consumable made of biological organic matter. This means Gorp is alive!

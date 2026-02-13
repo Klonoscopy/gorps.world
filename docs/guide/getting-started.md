@@ -38,14 +38,14 @@ head:
 I understand this mod might seem like a lot at first, but don't worry. This guide will help you on your way to harnessing the power of Gorp.
 
 ## Your First Steps
-![icon](../textures/item/gorp_seed.png)
+![icon](../public/textures/item/gorp_seed.png)
 **Gorp Seed**
 
 Before you can cultivate and grow your first Gorp, you have to find and plant a Gorp Seed.
 
 ::: info
 
-<img src="../textures/block/gorp_sprout.png" style="object-fit: cover; height: 45px; padding-bottom: 5px; object-position: bottom;" class="wiki-item"></img>
+<img src="../public/textures/block/gorp_sprout.png" style="object-fit: cover; height: 45px; padding-bottom: 5px; object-position: bottom;" class="wiki-item"></img>
 **Gorp Sprout**
 
 Gorp Sprouts will drop a few Gorp Seeds when broken. They generate in green grassy biomes.
@@ -71,7 +71,7 @@ At first, you may be tempted to eat your Gorp friend. Should you wish to do this
 </div>
 
 
-![icon](../textures/item/bitten_gorp.png)
+![icon](../public/textures/item/bitten_gorp.png)
 **Bitten Gorp**
 
 He is! Bitten Gorps are used in nearly every crafting recipe this mod includes. 
