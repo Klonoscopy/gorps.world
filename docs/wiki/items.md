@@ -125,7 +125,7 @@ import items from './entries.json';
       <span class="summary">{{ item.summary }}</span>
     </span></div>
     <details class="details custom-block recipe-block"><summary>Crafting Recipe</summary>
-      <img src="./recipes/recipe-container.png" class="Recipe"></img>
+      <img src="../public/recipes/recipe-container.png" class="Recipe"></img>
       <img :src="withBase(item.recipe)" class="Recipe RecipeContainer"></img>
     </details>
 </div>
@@ -170,7 +170,7 @@ import items from './entries.json';
   </div>
 </div>
 
-### Elemental Gorps
+### Gorps
 
 <div v-for="item in items.gorps" :key="item.id">
 <hr>
