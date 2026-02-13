@@ -4,25 +4,25 @@
       "name": "Gorp Hammer",
       "summary": "Makes you and your target Jorp on hit.",
       "url": "../textures/item/gorp_hammer.png",
-      "recipe": "../public/recipes/gorp-hammer.png"
+      "recipe": "../recipes/gorp-hammer.png"
     },
     {
       "name": "Gorp Spear",
       "summary": "Launches you in the direction you are looking.",
       "url": "../textures/item/gorp_spear.png",
-      "recipe": "../public/recipes/gorp-spear.png"
+      "recipe": "../recipes/gorp-spear.png"
     },
     {
       "name": "Gorp Staff",
       "summary": "Sends mobs flying away from you.",
       "url": "../textures/item/gorp_staff.png",
-      "recipe": "../public/recipes/gorp-staff.png"
+      "recipe": "../recipes/gorp-staff.png"
     },
     {
       "name": "Glingshot",
       "summary": "Gives the target the gift of a Gorp Coin.",
       "url": "../textures/item/glingshot.png",
-      "recipe": "../public/recipes/glingshot.png"
+      "recipe": "../recipes/glingshot.png"
     }
   ],
   "armor": [
